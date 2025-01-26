@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Audiowide&family=Delicious+Handrawn&family=Happy+Monkey&family=Indie+Flower&family=Jura:wght@700&family=Orbitron:wght@400..900&family=Saira+Stencil+One&family=Shadows+Into+Light+Two&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Silkscreen:wght@400;700&family=Sriracha&family=Tangerine:wght@400;700&family=The+Girl+Next+Door&display=swap');
+
+:root {
+    --green: #03384A;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: auto;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+#lives {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+#lives img {
+    width: 100px;
+}
+
+#game {
+    position: absolute;
+    text-align: center;
+    color: var(--green);
+    font-family: "Orbitron", serif;
+    right: 10%;
+    top: 8%;
+}
+
+#score {
+    font-family: "Silkscreen", serif;
+    font-weight: 400;
+    color: var(--green);
+    font-size: 3rem;
+
+    position: absolute;
+    left: 3%;
+    top: 20%;
+}
